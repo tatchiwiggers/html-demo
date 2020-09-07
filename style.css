@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,300&family=Poppins:wght@300&display=swap');
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -60,14 +69,18 @@ a:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   width: 600px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .img{
   padding-bottom: 25px;
+  width: 650px;
+  margin-bottom: 10;  
 }
 
 .love {
-  padding: 20px;  
+  padding: 20px; 
+  width: 615px; 
 }
 
 .list-inline {
@@ -82,4 +95,20 @@ a:hover {
 .list-inline li {
   display: inline-block;
   padding: 5px;
+}
+.dots{
+  width: 650px;
+}
+.decide {
+  padding: 20px; 
+  width: 625px; 
+}
+
+.me {
+  padding: 20px;                             
+  border-radius: 4px;                      
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 600px;
+  margin: 10px 10px;
+  padding: 20px;
 }
